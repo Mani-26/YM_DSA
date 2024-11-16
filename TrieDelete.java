@@ -78,7 +78,7 @@ public class TrieDelete {
 		t.insert("catch");
 		t.insert("cat");
 		System.out.println(t.search("catch"));
-		t.remove(t.root,"catch",0);
+		t.remove(TrieDelete.root,"catch",0);
 		System.out.println(t.search("catch"));
 	}
 }
