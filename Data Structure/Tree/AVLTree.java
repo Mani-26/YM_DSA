@@ -233,7 +233,7 @@ public class AVLTree {
 
     public static void main(String[] args) {
         AVLTree tree = new AVLTree();
-        // Smaple input -> 30, 20, 40, 10, 25, 35, 50, 5
+        // Sample input -> 30, 20, 40, 10, 25, 35, 50, 5
         // Insert elements
         tree.insert(10);
         tree.insert(20);

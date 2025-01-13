@@ -1,3 +1,4 @@
+package ShortestPath;
 public class BellmanFord {
     public static void  findShortest(int graph[][],int v,int e,int src){
         int dist[]=new int[v];

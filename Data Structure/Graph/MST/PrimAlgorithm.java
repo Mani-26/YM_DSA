@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Prims {
+public class PrimAlgorithm{
     static final int V = 6; 
 
     static int selectMinVertex(int[] value, boolean[] setMST) {

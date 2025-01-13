@@ -1,3 +1,4 @@
+package ShortestPath;
 public class FloydWarshall {
     static int INF =Integer.MAX_VALUE;
     public static void findShortest(int graph[][],int v){
