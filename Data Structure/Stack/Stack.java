@@ -1,4 +1,4 @@
-package Stack;
+// package Stack;
 
 // Node class
 class StackNode {

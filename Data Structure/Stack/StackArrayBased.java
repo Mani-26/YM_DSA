@@ -1,4 +1,4 @@
-package Stack;
+// package Stack;
 
 public class StackArrayBased {
     private int[] stack;   // Array to store stack elements
