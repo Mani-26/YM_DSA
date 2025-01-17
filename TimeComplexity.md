@@ -195,3 +195,104 @@ class FactorialTimeExample {
 - Worst case: String has `n` characters (`n!` permutations).
 
 ---
+
+### **7. Linearithmic Time Complexity - O(n log n)**
+
+**Description**: Commonly occurs in divide-and-conquer algorithms like **merge sort** and **quick sort**, where the input is divided and sorted multiple times.
+
+#### Example Scenario:
+Sorting an array using **merge sort**.
+
+```java
+class LinearithmicTimeExample {
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6, 7};
+        mergeSort(arr, 0, arr.length - 1);
+
+        System.out.print("Sorted array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+
+    static void mergeSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int mid = left + (right - left) / 2;
+
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid + 1, right);
+
+            merge(arr, left, mid, right);
+        }
+    }
+
+    static void merge(int[] arr, int left, int mid, int right) {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+
+        int[] leftArr = new int[n1];
+        int[] rightArr = new int[n2];
+
+        for (int i = 0; i < n1; i++) leftArr[i] = arr[left + i];
+        for (int j = 0; j < n2; j++) rightArr[j] = arr[mid + 1 + j];
+
+        int i = 0, j = 0, k = left;
+        while (i < n1 && j < n2) {
+            if (leftArr[i] <= rightArr[j]) {
+                arr[k] = leftArr[i];
+                i++;
+            } else {
+                arr[k] = rightArr[j];
+                j++;
+            }
+            k++;
+        }
+
+        while (i < n1) arr[k++] = leftArr[i++];
+        while (j < n2) arr[k++] = rightArr[j++];
+    }
+}
+```
+
+- **Best case**: Sorting an already sorted array, still `O(n log n)`.
+- **Average case**: Random array.
+- **Worst case**: Sorting a reverse-ordered array, still `O(n log n)`.
+
+---
+
+### **8. Sublinear Time Complexity - O(√n)**
+
+**Description**: Less common but useful in specific scenarios, like checking for divisors up to the square root of a number.
+
+#### Example Scenario:
+Checking if a number is prime.
+
+```java
+class SublinearTimeExample {
+    public static void main(String[] args) {
+        int number = 29;
+        boolean isPrime = isPrime(number);
+
+        if (isPrime) {
+            System.out.println(number + " is a prime number.");
+        } else {
+            System.out.println(number + " is not a prime number.");
+        }
+    }
+
+    static boolean isPrime(int n) {
+        if (n <= 1) return false;
+
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+}
+```
+
+- **Best case**: Small prime numbers (e.g., `2` or `3`).
+- **Average case**: Random number.
+- **Worst case**: Large composite numbers.
+
+---
