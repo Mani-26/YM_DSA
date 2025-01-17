@@ -39,15 +39,29 @@ This repository is a comprehensive collection of **data structures** and **algor
 - `RedBlackTree.java` - Red-Black tree implementation.
 - `Trie.java` - Prefix tree (trie) for string operations.
 
+For a detailed explanation of all the data structures, refer to the [**Data Structures Overview**](DataStructures.md).
+
 ---
 
-### **2. Shortest Path**
+### **2. Recursion**
+#### **Direct Recursion**
+- `HeadRecursion.java` and `HeadRecursion.md` - Explanation and implementation of head recursion.
+- `TailRecursion.java` and `TailRecursion.md` - Explanation and implementation of tail recursion.
+- `TreeRecursion.java` and `TreeRecursion.md` - Explanation and implementation of tree recursion.
+- `NestedRecursion.java` and `NestedRecursion.md` - Explanation and implementation of nested recursion.
+
+#### **Indirect Recursion**
+- `IndirectRecursion.java` and `IndirectRecursion.md` - Explanation and implementation of indirect recursion, supported by `image.png` for visualization.
+
+---
+
+### **3. Shortest Path**
 - `BellmanFord.java` - Bellman-Ford algorithm for single-source shortest paths.
 - `FloydWarshall.java` - Floyd-Warshall algorithm for all-pairs shortest paths.
 
 ---
 
-### **3. Sorting**
+### **4. Sorting**
 #### **Comparison-Based Sorting**
 - `BubbleSort.java` - Simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
 - `SelectionSort.java` - Sorting algorithm that selects the smallest element from an unsorted list and moves it to the sorted part.
@@ -58,13 +72,13 @@ This repository is a comprehensive collection of **data structures** and **algor
 
 ---
 
-### **4. String Methods**
+### **5. String Methods**
 - **Documentation**:
   - `String Methods.md` - A detailed guide on various string manipulation methods available in Java.
 
 ---
 
-### **5. Time and Space Complexity**
+### **6. Time and Space Complexity**
 - **Big-O Notation**: `Big-O-Notation.md` - An overview of the Big-O notation and how it is used to express time and space complexities of algorithms.
 - **Time Complexity**: `TimeComplexity.md` - A detailed explanation of time complexity analysis for common algorithms.
 - **Space Complexity**: `SpaceComplexity.md` - An overview of space complexity and how it is measured for different algorithms.
@@ -96,11 +110,8 @@ This repository is a comprehensive collection of **data structures** and **algor
 ---
 
 ## **Contributors**
-- [**Mani S**](https://github.com/Mani-26)   - Developer and Maintainer
+- [**Mani S**](https://github.com/Mani-26) - Developer and Maintainer
 
 Feel free to contribute by submitting pull requests or suggesting features in the issues section.
 
 ---
-
-
-You can customize it further by adding your repository link, your name, or specific enhancements you'd like to implement. Let me know if you need help adding additional details! 😊
