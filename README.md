@@ -96,7 +96,7 @@ This repository is a comprehensive collection of **data structures** and **algor
 ---
 
 ## **Contributors**
-- **Mani S** - Developer and Maintainer
+- [**Mani S**](https://github.com/Mani-26)   - Developer and Maintainer
 
 Feel free to contribute by submitting pull requests or suggesting features in the issues section.
 
