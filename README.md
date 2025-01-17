@@ -99,7 +99,6 @@ For a detailed explanation of all the data structures, refer to the [**Data Stru
    ```bash
    java FileName
    ```
-
 ---
 
 ## **Features**
@@ -112,6 +111,10 @@ For a detailed explanation of all the data structures, refer to the [**Data Stru
 
 ## **Contributors**
 - [**Mani S**](https://github.com/Mani-26) - Developer and Maintainer
+
+
+## **From the Developer:** 
+If you find this repository helpful, please consider giving it a ⭐ on GitHub for easy access, to stay updated with new additions and to support its development.
 
 Feel free to contribute by submitting pull requests or suggesting features in the issues section.
 
