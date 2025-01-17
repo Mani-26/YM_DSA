@@ -39,7 +39,7 @@ This repository is a comprehensive collection of **data structures** and **algor
 - `RedBlackTree.java` - Red-Black tree implementation.
 - `Trie.java` - Prefix tree (trie) for string operations.
 
-For a detailed explanation of all the data structures, refer to the [**Data Structures Overview**](DataStructures.md).
+For a detailed explanation of all the data structures, refer to the [**Data Structures Overview**](./Documentaion/DataStructures.md).
 
 ---
 
@@ -73,15 +73,14 @@ For a detailed explanation of all the data structures, refer to the [**Data Stru
 ---
 
 ### **5. String Methods**
-- **Documentation**:
-  - `String Methods.md` - A detailed guide on various string manipulation methods available in Java.
+- [**String Methods:**](./Documentaion/String%20Methods.md) A detailed guide on various string manipulation methods available in Java.
 
 ---
 
 ### **6. Time and Space Complexity**
-- **Big-O Notation**: `Big-O-Notation.md` - An overview of the Big-O notation and how it is used to express time and space complexities of algorithms.
-- **Time Complexity**: `TimeComplexity.md` - A detailed explanation of time complexity analysis for common algorithms.
-- **Space Complexity**: `SpaceComplexity.md` - An overview of space complexity and how it is measured for different algorithms.
+- [**Big-O-Notation:**](./Documentaion/Big-O-Notation.md)  An overview of the Big-O notation and how it is used to express time and space complexities of algorithms.
+- [**Time Complexity:**](./Documentaion/TimeComplexity.md)  A detailed explanation of time complexity analysis for common algorithms.
+- [**Space Complexity:**](./Documentaion/SpaceComplexity.md) An overview of space complexity and how it is measured for different algorithms.
 
 ---
 
