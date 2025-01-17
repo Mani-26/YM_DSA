@@ -64,6 +64,13 @@ This repository is a comprehensive collection of **data structures** and **algor
 
 ---
 
+### **5. Time and Space Complexity**
+- **Big-O Notation**: `Big-O-Notation.md` - An overview of the Big-O notation and how it is used to express time and space complexities of algorithms.
+- **Time Complexity**: `TimeComplexity.md` - A detailed explanation of time complexity analysis for common algorithms.
+- **Space Complexity**: `SpaceComplexity.md` - An overview of space complexity and how it is measured for different algorithms.
+
+---
+
 ## **How to Use**
 1. Clone the repository:
    ```bash
@@ -88,14 +95,6 @@ This repository is a comprehensive collection of **data structures** and **algor
 
 ---
 
-## **Future Enhancements**
-- Add advanced graph algorithms like Dijkstra's and A*.
-- Include additional data structures like heaps and hash tables.
-- Add more non-comparison-based sorting techniques.
-- Include test cases for each implementation using JUnit.
-
----
-
 ## **Contributors**
 - **Mani S** - Developer and Maintainer
 
@@ -103,7 +102,5 @@ Feel free to contribute by submitting pull requests or suggesting features in th
 
 ---
 
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 You can customize it further by adding your repository link, your name, or specific enhancements you'd like to implement. Let me know if you need help adding additional details! 😊
