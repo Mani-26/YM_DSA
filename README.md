@@ -9,35 +9,35 @@ This repository is a comprehensive collection of **data structures** and **algor
 ### **1. Data Structure**
 #### **Graph**
 - **Representations**:
-  - `GraphAdjList.java` - Graph representation using adjacency lists.
-  - `GraphAdjMatrix.java` - Graph representation using adjacency matrices.
+  - [GraphAdjList.java](./Data%20Structure/Graph/GraphAdjList.java) - Graph representation using adjacency lists.
+  - [GraphAdjMatrix.java](./Data%20Structure/Graph/GraphAdjMatrix.java) - Graph representation using adjacency matrices.
 - **MST (Minimum Spanning Tree)**:
-  - `KruskalAlgorithm.java` - Kruskal's algorithm for MST.
-  - `PrimAlgorithm.java` - Prim's algorithm for MST.
+  - [KruskalAlgorithm.java](./Data%20Structure/Graph/MST/KruskalAlgorithm.java) - Kruskal's algorithm for MST.
+  - [PrimAlgorithm.java](./Data%20Structure/Graph/MST/PrimAlgorithm.java) - Prim's algorithm for MST.
 - **Searching**:
-  - `GraphListBfsDfs.java` - BFS and DFS using adjacency lists.
-  - `GraphMatBfsDfs.java` - BFS and DFS using adjacency matrices.
+  - [GraphListBfsDfs.java](./Data%20Structure/Graph/Searching/GraphListBfsDfs.java) - BFS and DFS using adjacency lists.
+  - [GraphMatBfsDfs.java](./Data%20Structure/Graph/Searching/GraphMatBfsDfs.java) - BFS and DFS using adjacency matrices.
 
 #### **List**
-- `SinglyLinkedList.java` - Singly linked list implementation.
-- `DoublyLinkedList.java` - Doubly linked list implementation.
-- `SinglyCircularLinkedList.java` - Singly circular linked list.
-- `DoublyCircularLinkedList.java` - Doubly circular linked list.
+- [SinglyLinkedList.java](./Data%20Structure/List/SinglyLinkedList.java) - Singly linked list implementation.
+- [DoublyLinkedList.java](./Data%20Structure/List/DoublyLinkedList.java) - Doubly linked list implementation.
+- [SinglyCircularLinkedList.java](./Data%20Structure/List/SinglyCircularLinkedList.java) - Singly circular linked list.
+- [DoublyCircularLinkedList.java](./Data%20Structure/List/DoublyCircularLinkedList.java) - Doubly circular linked list.
 
 #### **Queue**
-- `Queue.java` - Linked-list-based queue implementation.
-- `QueueArrayBased.java` - Array-based queue implementation with dynamic resizing.
+- [Queue.java](./Data%20Structure/Queue/Queue.java) - Linked-list-based queue implementation.
+- [QueueArrayBased.java](./Data%20Structure/Queue/QueueArrayBased.java) - Array-based queue implementation with dynamic resizing.
 
 #### **Stack**
-- `Stack.java` - Linked-list-based stack implementation.
-- `StackArrayBased.java` - Array-based stack implementation with dynamic resizing.
+- [Stack.java](./Data%20Structure/Stack/Stack.java) - Linked-list-based stack implementation.
+- [StackArrayBased.java](./Data%20Structure/Stack/StackArrayBased.java) - Array-based stack implementation with dynamic resizing.
 
 #### **Tree**
-- `BinaryTree.java` - Basic binary tree structure and operations.
-- `BinarySearchTree.java` - Binary search tree implementation.
-- `AVLTree.java` - Self-balancing AVL tree.
-- `RedBlackTree.java` - Red-Black tree implementation.
-- `Trie.java` - Prefix tree (trie) for string operations.
+- [BinaryTree.java](./Data%20Structure/Tree/BinaryTree.java) - Basic binary tree structure and operations.
+- [BinarySearchTree.java](./Data%20Structure/Tree/BinarySearchTree.java) - Binary search tree implementation.
+- [AVLTree.java](./Data%20Structure/Tree/AVLTree.java) - Self-balancing AVL tree.
+- [RedBlackTree.java](./Data%20Structure/Tree/RedBlackTree.java) - Red-Black tree implementation.
+- [Trie.java](./Data%20Structure/Tree/Trie.java) - Prefix tree (trie) for string operations.
 
 For a detailed explanation of all the data structures, refer to the [**Data Structures Overview**](./Documentaion/DataStructures.md).
 
@@ -45,28 +45,30 @@ For a detailed explanation of all the data structures, refer to the [**Data Stru
 
 ### **2. Recursion**
 #### **Direct Recursion**
-- `HeadRecursion.java` and `HeadRecursion.md` - Explanation and implementation of head recursion.
-- `TailRecursion.java` and `TailRecursion.md` - Explanation and implementation of tail recursion.
-- `TreeRecursion.java` and `TreeRecursion.md` - Explanation and implementation of tree recursion.
-- `NestedRecursion.java` and `NestedRecursion.md` - Explanation and implementation of nested recursion.
+- [HeadRecursion.java](./Recursion/Direct/HeadRecursion.java) and [HeadRecursion.md](./Recursion/Direct/HeadRecursion.md) - Explanation and implementation of head recursion.
+- [TailRecursion.java](./Recursion/Direct/TailRecursion.java) and [TailRecursion.md](./Recursion/Direct/TailRecursion.md) - Explanation and implementation of tail recursion.
+- [TreeRecursion.java](./Recursion/Direct/TreeRecursion.java) and [TreeRecursion.md](./Recursion/Direct/TreeRecursion.md) - Explanation and implementation of tree recursion.
+- [NestedRecursion.java](./Recursion/Direct/NestedRecursion.java) and [NestedRecursion.md](./Recursion/Direct/NestedRecursion.md) - Explanation and implementation of nested recursion.
 
 #### **Indirect Recursion**
-- `IndirectRecursion.java` and `IndirectRecursion.md` - Explanation and implementation of indirect recursion, supported by `image.png` for visualization.
+- [IndirectRecursion.java](./Recursion/Direct/IndirectRecursion.java) and [IndirectRecursion.md](./Recursion/Indirect/IndirectRecursion.md) - Explanation and implementation of indirect recursion, supported by [image.png](./Recursion/Indirect/image.png) for visualization.
 
 ---
 
 ### **3. Shortest Path**
-- `BellmanFord.java` - Bellman-Ford algorithm for single-source shortest paths.
-- `FloydWarshall.java` - Floyd-Warshall algorithm for all-pairs shortest paths.
+- [BellmanFord.java](./ShortestPath/BellmanFord.java) - Bellman-Ford algorithm for single-source shortest paths.
+- [FloydWarshall.java](./ShortestPath/FloydWarshall.java) - Floyd-Warshall algorithm for all-pairs shortest paths.
 
 ---
 
 ### **4. Sorting**
 #### **Comparison-Based Sorting**
-- `BubbleSort.java` - Simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
-- `SelectionSort.java` - Sorting algorithm that selects the smallest element from an unsorted list and moves it to the sorted part.
+- [BubbleSort.java](./Sorting/ComparisonBased/BubbleSort.java) - Simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+- [SelectionSort.java](./Sorting/ComparisonBased/SelectionSort.java) - Sorting algorithm that selects the smallest element from an unsorted list and moves it to the sorted part.
 
 #### **Non-Comparison-Based Sorting**
+<p align ="center"> Will be Added</p>
+
 - `CountingSort.java` - A sorting technique based on keys between a specific range.
 - `RadixSort.java` - A non-comparison-based sorting algorithm that processes individual digits.
 
