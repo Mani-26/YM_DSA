@@ -1,5 +1,7 @@
 # Data Structures and Algorithms
 
+![](https://visitor-badge-deno.deno.dev/Mani-26.Leetcode.svg)
+
 This repository is a comprehensive collection of **data structures** and **algorithms**, implemented in Java. It is organized systematically to facilitate learning and practical implementation of key computer science concepts.
 
 ---
